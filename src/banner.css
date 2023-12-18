@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=League+Script");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+
+.banner {
+  width: 800px;
+  height: 200px;
+  background-image: linear-gradient(105deg, #333 70%, #000 30%);
+  align-items: center;
+}
+
+.banner .title {
+  font-family: "League Script", "Dancing Script", cursive;
+  font-size: 72px;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  padding-left: 20px;
+}
+
+.name-container h1 {
+  margin: 0;
+  color: white;
+  font-family: "League Script", "Dancing Script", cursive;
+  font-size: 72px;
+}
+
+.circle-container {
+  height: 200px;
+  padding-right: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fill-available;
+  align-items: center;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle .initials {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Dancing Script", cursive;
+}
+
+.circle .text {
+  position: absolute;
+  color: white;
+  font-size: 0.7em;
+  width: 130%;
+  height: 130%;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  text-align: right;
+  writing-mode: vertical-rl;
+}
+
+.circle .svg {
+  position: absolute;
+}
